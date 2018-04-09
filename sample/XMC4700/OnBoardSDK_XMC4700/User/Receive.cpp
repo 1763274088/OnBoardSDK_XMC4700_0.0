@@ -13,6 +13,19 @@
 #include "Receive.h"
 #include "LocalNavigation.h"
 #include "main.h"
+#include "fifo.h"
+
+/**实例化fifo数据类型的 uart_rx_fifo接收缓存*/
+fifo_t uart_rx_fifo;
+/**实例化fifo数据类型的 uart_tx_fifo发送缓存*/
+fifo_t uart_tx_fifo;
+
+/**定义uart_rx_fifo的接收数组缓存区*/
+uint8_t uart_rx_buf[UART_RX_BUFFER_SIZE];
+
+/**定义uart_tx_fifo的发送数组缓存区*/
+uint8_t uart_tx_buf[UART_TX_BUFFER_SIZE];
+
 
 extern XMC_USIC_CH_t           *pc_uart;
 extern FlightData flightData;
@@ -40,6 +53,12 @@ TerminalCommand myTerminal;
 
 void TerminalCommand::terminalCommandHandler(CoreAPI* api, Flight* flight)
 {
+	
+	for(int i = 0; i>32; i++)	{
+		fifo_write_ch(&uart_rx_fifo, cmdIn[i]);
+	}	
+	
+	
   if (cmdReadyFlag == 1)
   {
     cmdReadyFlag = 0;
@@ -169,6 +188,7 @@ void USIC0_5_IRQHandler(void)
 {
  
     uint8_t oneByte = XMC_UART_CH_GetReceivedData(pc_uart);
+						
     if (myTerminal.rxIndex == 0)
     {
       if (oneByte == 0xFA)

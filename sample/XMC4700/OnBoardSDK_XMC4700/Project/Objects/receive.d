@@ -59,3 +59,4 @@
 .\objects\receive.o: ..\Bsp\bsp.h
 .\objects\receive.o: ..\User\LocalNavigation.h
 .\objects\receive.o: ..\User\MobileCommand.h
+.\objects\receive.o: ..\HARDWARE\FIFO\fifo.h

@@ -952,17 +952,16 @@ ARM Macro Assembler    Page 15
               00000000 
 Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M4.fp
  --apcs=interwork --depend=.\objects\startup_xmc4700.d -o.\objects\startup_xmc4
-700.o -IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\
-XMC4700\OnBoardSDK_XMC4700\Project\RTE -IG:\AA-四旋翼\000-无人机比赛\4700_n3_ke
-il\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\
-XMC4700-F144x2048 -I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS
-\Include" -I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\De
-vice\XMC4700_series\Include" -I"D:\002program files\keil5.2\ARM\PACK\Infineon\X
-MC4000_DFP\2.7.1\Device\XMClib\inc" -I"D:\002program files\keil5.2\ARM\PACK\Inf
-ineon\XMC4000_DFP\2.7.1\RTE_Driver" --predefine="__MICROLIB SETA 1" --predefine
-="__UVISION_VERSION SETA 521" --predefine="_RTE_ SETA 1" --predefine="XMC4700_F
-144x2048 SETA 1" --list=.\listings\startup_xmc4700.lst RTE\Device\XMC4700-F144x
-2048\startup_XMC4700.s
+700.o -ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoar
+dSDK_XMC4700\Project\RTE -ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sa
+mple\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048 -I"D:\002p
+rogram files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include" -I"D:\002program f
+iles\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"
+ -I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMCl
+ib\inc" -I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_
+Driver" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 521
+" --predefine="_RTE_ SETA 1" --predefine="XMC4700_F144x2048 SETA 1" --list=.\li
+stings\startup_xmc4700.lst RTE\Device\XMC4700-F144x2048\startup_XMC4700.s
 
 
 

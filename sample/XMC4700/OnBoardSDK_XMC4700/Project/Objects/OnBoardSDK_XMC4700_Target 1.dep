@@ -1,14 +1,14 @@
 Dependencies for Project 'OnBoardSDK_XMC4700', Target 'Target 1': (DO NOT MODIFY !)
-F (..\User\main.cpp)(0x598A7D46)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\User\main.h)(0x59719A56)
+F (..\User\main.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\main.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_exception.h)(0x56FE42DC)
@@ -19,11 +19,11 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\User\driver.h)(0x5971A844)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\User\driver.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
@@ -31,8 +31,8 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\Bsp\BspUsart.h)(0x5971A2B5)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\Bsp\BspUsart.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_ccu4.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
@@ -44,28 +44,28 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-I (..\User\cppforXMC4700.h)(0x59719FBC)
+I (..\User\cppforXMC4700.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\User\Activate.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x595C5F56)
-I (..\Bsp\timer.h)(0x5971A593)
-I (..\User\VirtualRC.h)(0x595C5F5E)
-I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\User\HotPoint.h)(0x595C5F5E)
-I (..\User\Receive.h)(0x595C5F5E)
-I (..\Bsp\bsp.h)(0x5971A593)
-I (..\User\LocalNavigation.h)(0x5971A593)
-I (..\User\MobileCommand.h)(0x5971A593)
-F (..\User\driver.cpp)(0x5971C8EE)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\driver.o --omf_browse .\objects\driver.crf --depend .\objects\driver.d)
-I (..\User\driver.h)(0x5971A844)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\User\Activate.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
+I (..\Bsp\timer.h)(0x5ACB0396)
+I (..\User\VirtualRC.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\User\HotPoint.h)(0x5ACB0397)
+I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\Bsp\bsp.h)(0x5ACB0396)
+I (..\User\LocalNavigation.h)(0x5ACB0397)
+I (..\User\MobileCommand.h)(0x5ACB0397)
+F (..\User\driver.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\driver.o --omf_browse .\objects\driver.crf --depend .\objects\driver.d)
+I (..\User\driver.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -94,14 +94,14 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-F (..\User\Activate.cpp)(0x59895D44)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\activate.o --omf_browse .\objects\activate.crf --depend .\objects\activate.d)
-I (..\User\Activate.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+F (..\User\Activate.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\activate.o --omf_browse .\objects\activate.crf --depend .\objects\activate.d)
+I (..\User\Activate.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -113,23 +113,23 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-F (..\User\HotPoint.cpp)(0x595C5F5E)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\hotpoint.o --omf_browse .\objects\hotpoint.crf --depend .\objects\hotpoint.d)
-I (..\User\HotPoint.h)(0x595C5F5E)
-I (..\User\main.h)(0x59719A56)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+F (..\User\HotPoint.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\hotpoint.o --omf_browse .\objects\hotpoint.crf --depend .\objects\hotpoint.d)
+I (..\User\HotPoint.h)(0x5ACB0397)
+I (..\User\main.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_exception.h)(0x56FE42DC)
@@ -140,11 +140,11 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\User\driver.h)(0x5971A844)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\User\driver.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
@@ -152,8 +152,8 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\Bsp\BspUsart.h)(0x5971A2B5)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\Bsp\BspUsart.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_ccu4.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
@@ -165,25 +165,25 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-I (..\User\cppforXMC4700.h)(0x59719FBC)
+I (..\User\cppforXMC4700.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\User\Activate.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x595C5F56)
-I (..\Bsp\timer.h)(0x5971A593)
-I (..\User\VirtualRC.h)(0x595C5F5E)
-I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\User\Receive.h)(0x595C5F5E)
-I (..\Bsp\bsp.h)(0x5971A593)
-I (..\User\LocalNavigation.h)(0x5971A593)
-I (..\User\MobileCommand.h)(0x5971A593)
-F (..\User\LocalNavigation.cpp)(0x59780B08)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\localnavigation.o --omf_browse .\objects\localnavigation.crf --depend .\objects\localnavigation.d)
-I (..\User\LocalNavigation.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\User\Activate.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
+I (..\Bsp\timer.h)(0x5ACB0396)
+I (..\User\VirtualRC.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\Bsp\bsp.h)(0x5ACB0396)
+I (..\User\LocalNavigation.h)(0x5ACB0397)
+I (..\User\MobileCommand.h)(0x5ACB0397)
+F (..\User\LocalNavigation.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\localnavigation.o --omf_browse .\objects\localnavigation.crf --depend .\objects\localnavigation.d)
+I (..\User\LocalNavigation.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -195,11 +195,11 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\arm_math.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
@@ -208,12 +208,12 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFun
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
-I (..\User\main.h)(0x59719A56)
-I (..\User\driver.h)(0x5971A844)
+I (..\User\main.h)(0x5ACB0397)
+I (..\User\driver.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\Bsp\BspUsart.h)(0x5971A2B5)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\Bsp\BspUsart.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_ccu4.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
@@ -225,26 +225,26 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-I (..\User\cppforXMC4700.h)(0x59719FBC)
+I (..\User\cppforXMC4700.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\User\Activate.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x595C5F56)
-I (..\Bsp\timer.h)(0x5971A593)
-I (..\User\VirtualRC.h)(0x595C5F5E)
-I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\User\HotPoint.h)(0x595C5F5E)
-I (..\User\Receive.h)(0x595C5F5E)
-I (..\Bsp\bsp.h)(0x5971A593)
-I (..\User\MobileCommand.h)(0x5971A593)
-F (..\User\MobileCommand.cpp)(0x595C5F5E)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\mobilecommand.o --omf_browse .\objects\mobilecommand.crf --depend .\objects\mobilecommand.d)
-I (..\User\MobileCommand.h)(0x5971A593)
+I (..\User\Activate.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
+I (..\Bsp\timer.h)(0x5ACB0396)
+I (..\User\VirtualRC.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\User\HotPoint.h)(0x5ACB0397)
+I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\Bsp\bsp.h)(0x5ACB0396)
+I (..\User\MobileCommand.h)(0x5ACB0397)
+F (..\User\MobileCommand.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\mobilecommand.o --omf_browse .\objects\mobilecommand.crf --depend .\objects\mobilecommand.d)
+I (..\User\MobileCommand.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -256,11 +256,11 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\Bsp\timer.h)(0x5971A593)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\Bsp\timer.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
@@ -269,20 +269,20 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\User\Activate.h)(0x5971A593)
-I (..\User\LocalNavigation.h)(0x5971A593)
-F (..\User\Receive.cpp)(0x5971C8E1)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\receive.o --omf_browse .\objects\receive.crf --depend .\objects\receive.d)
-I (..\User\Receive.h)(0x595C5F5E)
-I (..\User\main.h)(0x59719A56)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\User\Activate.h)(0x5ACB0397)
+I (..\User\LocalNavigation.h)(0x5ACB0397)
+F (..\User\Receive.cpp)(0x5ACB1DEF)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\receive.o --omf_browse .\objects\receive.crf --depend .\objects\receive.d)
+I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\User\main.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_exception.h)(0x56FE42DC)
@@ -293,11 +293,11 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\User\driver.h)(0x5971A844)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\User\driver.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
@@ -305,8 +305,8 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\Bsp\BspUsart.h)(0x5971A2B5)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\Bsp\BspUsart.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_ccu4.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
@@ -318,26 +318,27 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-I (..\User\cppforXMC4700.h)(0x59719FBC)
+I (..\User\cppforXMC4700.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\User\Activate.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x595C5F56)
-I (..\Bsp\timer.h)(0x5971A593)
-I (..\User\VirtualRC.h)(0x595C5F5E)
-I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\User\HotPoint.h)(0x595C5F5E)
-I (..\Bsp\bsp.h)(0x5971A593)
-I (..\User\LocalNavigation.h)(0x5971A593)
-I (..\User\MobileCommand.h)(0x5971A593)
-F (..\User\VirtualRC.cpp)(0x595C5F5E)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\virtualrc.o --omf_browse .\objects\virtualrc.crf --depend .\objects\virtualrc.d)
-I (..\User\VirtualRC.h)(0x595C5F5E)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\User\Activate.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
+I (..\Bsp\timer.h)(0x5ACB0396)
+I (..\User\VirtualRC.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\User\HotPoint.h)(0x5ACB0397)
+I (..\Bsp\bsp.h)(0x5ACB0396)
+I (..\User\LocalNavigation.h)(0x5ACB0397)
+I (..\User\MobileCommand.h)(0x5ACB0397)
+I (..\HARDWARE\FIFO\fifo.h)(0x5ACB1834)
+F (..\User\VirtualRC.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\virtualrc.o --omf_browse .\objects\virtualrc.crf --depend .\objects\virtualrc.d)
+I (..\User\VirtualRC.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -349,13 +350,13 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x595C5F56)
-F (..\User\cppforXMC4700.cpp)(0x597ADFC5)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\cppforxmc4700.o --omf_browse .\objects\cppforxmc4700.crf --depend .\objects\cppforxmc4700.d)
+I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
+F (..\User\cppforXMC4700.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\cppforxmc4700.o --omf_browse .\objects\cppforxmc4700.crf --depend .\objects\cppforxmc4700.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -364,10 +365,10 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-I (..\User\cppforXMC4700.h)(0x59719FBC)
+I (..\User\cppforXMC4700.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\Bsp\BspUsart.h)(0x5971A2B5)
+I (..\Bsp\BspUsart.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -379,17 +380,17 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-F (..\Bsp\bsp.cpp)(0x5971A593)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
-I (..\Bsp\bsp.h)(0x5971A593)
-I (..\User\main.h)(0x59719A56)
+F (..\Bsp\bsp.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (..\Bsp\bsp.h)(0x5ACB0396)
+I (..\User\main.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_exception.h)(0x56FE42DC)
@@ -400,11 +401,11 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\User\driver.h)(0x5971A844)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\User\driver.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
@@ -412,8 +413,8 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\Bsp\BspUsart.h)(0x5971A2B5)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\Bsp\BspUsart.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_ccu4.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
@@ -425,19 +426,19 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-I (..\User\cppforXMC4700.h)(0x59719FBC)
+I (..\User\cppforXMC4700.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\User\Activate.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x595C5F56)
-I (..\Bsp\timer.h)(0x5971A593)
-I (..\User\VirtualRC.h)(0x595C5F5E)
-I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\User\HotPoint.h)(0x595C5F5E)
-I (..\User\Receive.h)(0x595C5F5E)
-I (..\User\LocalNavigation.h)(0x5971A593)
-I (..\User\MobileCommand.h)(0x5971A593)
-F (..\Bsp\BspUsart.cpp)(0x5AA739A9)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\bspusart.o --omf_browse .\objects\bspusart.crf --depend .\objects\bspusart.d)
+I (..\User\Activate.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
+I (..\Bsp\timer.h)(0x5ACB0396)
+I (..\User\VirtualRC.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\User\HotPoint.h)(0x5ACB0397)
+I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\User\LocalNavigation.h)(0x5ACB0397)
+I (..\User\MobileCommand.h)(0x5ACB0397)
+F (..\Bsp\BspUsart.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\bspusart.o --omf_browse .\objects\bspusart.crf --depend .\objects\bspusart.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -459,13 +460,13 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
-I (..\Bsp\BspUsart.h)(0x5971A2B5)
+I (..\Bsp\BspUsart.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_exception.h)(0x56FE42DC)
@@ -475,19 +476,19 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\config.h)(0x56FE42D8)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-F (..\Bsp\timer.cpp)(0x59892FAA)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
-I (..\Bsp\timer.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+F (..\Bsp\timer.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\Bsp\timer.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -499,10 +500,10 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
@@ -511,11 +512,11 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x595C5F56)
-I (..\User\main.h)(0x59719A56)
-I (..\User\driver.h)(0x5971A844)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\Bsp\BspUsart.h)(0x5971A2B5)
+I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
+I (..\User\main.h)(0x5ACB0397)
+I (..\User\driver.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\Bsp\BspUsart.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_ccu4.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
@@ -527,27 +528,27 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-I (..\User\cppforXMC4700.h)(0x59719FBC)
+I (..\User\cppforXMC4700.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\User\Activate.h)(0x5971A593)
-I (..\User\VirtualRC.h)(0x595C5F5E)
-I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\User\HotPoint.h)(0x595C5F5E)
-I (..\User\Receive.h)(0x595C5F5E)
-I (..\Bsp\bsp.h)(0x5971A593)
-I (..\User\LocalNavigation.h)(0x5971A593)
-I (..\User\MobileCommand.h)(0x5971A593)
+I (..\User\Activate.h)(0x5ACB0397)
+I (..\User\VirtualRC.h)(0x5ACB0397)
+I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\User\HotPoint.h)(0x5ACB0397)
+I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\Bsp\bsp.h)(0x5ACB0396)
+I (..\User\LocalNavigation.h)(0x5ACB0397)
+I (..\User\MobileCommand.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
-F (..\doc\readme.txt)(0x598BABC7)()
-F (..\..\..\..\osdk-core\src\DJI_API.cpp)(0x598A7D46)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_api.o --omf_browse .\objects\dji_api.crf --depend .\objects\dji_api.d)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+F (..\doc\readme.txt)(0x5ACB0397)()
+F (..\..\..\..\osdk-core\src\DJI_API.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_api.o --omf_browse .\objects\dji_api.crf --depend .\objects\dji_api.d)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -559,21 +560,21 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_App.cpp)(0x596331DC)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_app.o --omf_browse .\objects\dji_app.crf --depend .\objects\dji_app.d)
+F (..\..\..\..\osdk-core\src\DJI_App.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_app.o --omf_browse .\objects\dji_app.crf --depend .\objects\dji_app.d)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_exception.h)(0x56FE42DC)
@@ -584,18 +585,18 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-F (..\..\..\..\osdk-core\src\DJI_Camera.cpp)(0x595C5F56)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_camera.o --omf_browse .\objects\dji_camera.crf --depend .\objects\dji_camera.d)
-I (..\..\..\..\osdk-core\inc\DJI_Camera.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+F (..\..\..\..\osdk-core\src\DJI_Camera.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_camera.o --omf_browse .\objects\dji_camera.crf --depend .\objects\dji_camera.d)
+I (..\..\..\..\osdk-core\inc\DJI_Camera.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -607,12 +608,12 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-F (..\..\..\..\osdk-core\src\DJI_Codec.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_codec.o --omf_browse .\objects\dji_codec.crf --depend .\objects\dji_codec.d)
-I (..\..\..\..\osdk-core\inc\DJI_Codec.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+F (..\..\..\..\osdk-core\src\DJI_Codec.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_codec.o --omf_browse .\objects\dji_codec.crf --depend .\objects\dji_codec.d)
+I (..\..\..\..\osdk-core\inc\DJI_Codec.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
@@ -628,28 +629,28 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_iterbase.h)(0x56FE42DC)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_mutex.h)(0x56FE42D8)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstring)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_exception.h)(0x56FE42DC)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-F (..\..\..\..\osdk-core\src\DJI_Flight.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_flight.o --omf_browse .\objects\dji_flight.crf --depend .\objects\dji_flight.d)
-I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+F (..\..\..\..\osdk-core\src\DJI_Flight.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_flight.o --omf_browse .\objects\dji_flight.crf --depend .\objects\dji_flight.d)
+I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -661,21 +662,21 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_Follow.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_follow.o --omf_browse .\objects\dji_follow.crf --depend .\objects\dji_follow.d)
-I (..\..\..\..\osdk-core\inc\DJI_Follow.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+F (..\..\..\..\osdk-core\src\DJI_Follow.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_follow.o --omf_browse .\objects\dji_follow.crf --depend .\objects\dji_follow.d)
+I (..\..\..\..\osdk-core\inc\DJI_Follow.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -687,18 +688,18 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-F (..\..\..\..\osdk-core\src\DJI_HardDriver.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_harddriver.o --omf_browse .\objects\dji_harddriver.crf --depend .\objects\dji_harddriver.d)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+F (..\..\..\..\osdk-core\src\DJI_HardDriver.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_harddriver.o --omf_browse .\objects\dji_harddriver.crf --depend .\objects\dji_harddriver.d)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -710,15 +711,15 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_HotPoint.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_hotpoint.o --omf_browse .\objects\dji_hotpoint.crf --depend .\objects\dji_hotpoint.d)
-I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+F (..\..\..\..\osdk-core\src\DJI_HotPoint.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_hotpoint.o --omf_browse .\objects\dji_hotpoint.crf --depend .\objects\dji_hotpoint.d)
+I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -730,18 +731,18 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_Link.cpp)(0x5971A593)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_link.o --omf_browse .\objects\dji_link.crf --depend .\objects\dji_link.d)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+F (..\..\..\..\osdk-core\src\DJI_Link.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_link.o --omf_browse .\objects\dji_link.crf --depend .\objects\dji_link.d)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -753,11 +754,11 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Codec.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Codec.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\memory)(0x56FE42D4)
@@ -766,15 +767,15 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\utility)(0x56FE42D4)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_iterbase.h)(0x56FE42DC)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_mutex.h)(0x56FE42D8)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstring)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Logging.h)(0x595C5F56)
-F (..\..\..\..\osdk-core\src\DJI_Logging.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_logging.o --omf_browse .\objects\dji_logging.crf --depend .\objects\dji_logging.d)
-I (..\..\..\..\osdk-core\inc\DJI_Logging.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Logging.h)(0x5ACB0396)
+F (..\..\..\..\osdk-core\src\DJI_Logging.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_logging.o --omf_browse .\objects\dji_logging.crf --depend .\objects\dji_logging.d)
+I (..\..\..\..\osdk-core\inc\DJI_Logging.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -786,19 +787,19 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-F (..\..\..\..\osdk-core\src\DJI_Memory.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_memory.o --omf_browse .\objects\dji_memory.crf --depend .\objects\dji_memory.d)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+F (..\..\..\..\osdk-core\src\DJI_Memory.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_memory.o --omf_browse .\objects\dji_memory.crf --depend .\objects\dji_memory.d)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Memory.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Memory.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_exception.h)(0x56FE42DC)
@@ -809,18 +810,18 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-F (..\..\..\..\osdk-core\src\DJI_Mission.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_mission.o --omf_browse .\objects\dji_mission.crf --depend .\objects\dji_mission.d)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+F (..\..\..\..\osdk-core\src\DJI_Mission.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_mission.o --omf_browse .\objects\dji_mission.crf --depend .\objects\dji_mission.d)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -832,20 +833,20 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_VirtualRC.cpp)(0x595C5F58)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_virtualrc.o --omf_browse .\objects\dji_virtualrc.crf --depend .\objects\dji_virtualrc.d)
-I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+F (..\..\..\..\osdk-core\src\DJI_VirtualRC.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_virtualrc.o --omf_browse .\objects\dji_virtualrc.crf --depend .\objects\dji_virtualrc.d)
+I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -857,19 +858,19 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
-F (..\..\..\..\osdk-core\src\DJI_WayPoint.cpp)(0x5971A593)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_waypoint.o --omf_browse .\objects\dji_waypoint.crf --depend .\objects\dji_waypoint.d)
-I (..\..\..\..\osdk-core\inc\DJI_WayPoint.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
+F (..\..\..\..\osdk-core\src\DJI_WayPoint.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_waypoint.o --omf_browse .\objects\dji_waypoint.crf --depend .\objects\dji_waypoint.d)
+I (..\..\..\..\osdk-core\inc\DJI_WayPoint.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5971A593)
-I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_Version.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJICommonType.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\exception)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdexcept)(0x56FE42DE)
@@ -881,13 +882,23 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
-I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x595C5F56)
-I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x595C5F56)
+I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
+I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\HARDWARE\FIFO\fifo.c)(0x5981C9A0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\fifo.o --omf_browse .\objects\fifo.crf --depend .\objects\fifo.d)
+I (..\HARDWARE\FIFO\fifo.h)(0x5ACB1834)
+I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
+I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
+I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
+I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 F (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x56283F70)()
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc4_gpio.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc4_gpio.o --omf_browse .\objects\xmc4_gpio.crf --depend .\objects\xmc4_gpio.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc4_gpio.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc4_gpio.o --omf_browse .\objects\xmc4_gpio.crf --depend .\objects\xmc4_gpio.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -904,7 +915,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSim
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_gpio_map.h)(0x57BB21B0)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc4_scu.c)(0x57761C64)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc4_scu.o --omf_browse .\objects\xmc4_scu.crf --depend .\objects\xmc4_scu.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc4_scu.c)(0x57761C64)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc4_scu.o --omf_browse .\objects\xmc4_scu.crf --depend .\objects\xmc4_scu.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -920,7 +931,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFun
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_ccu4.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_ccu4.o --omf_browse .\objects\xmc_ccu4.crf --depend .\objects\xmc_ccu4.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_ccu4.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_ccu4.o --omf_browse .\objects\xmc_ccu4.crf --depend .\objects\xmc_ccu4.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_ccu4.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -938,7 +949,7 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC470
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_ccu4_map.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_common.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_common.o --omf_browse .\objects\xmc_common.crf --depend .\objects\xmc_common.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_common.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_common.o --omf_browse .\objects\xmc_common.crf --depend .\objects\xmc_common.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -952,7 +963,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_gpio.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_gpio.o --omf_browse .\objects\xmc_gpio.crf --depend .\objects\xmc_gpio.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_gpio.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_gpio.o --omf_browse .\objects\xmc_gpio.crf --depend .\objects\xmc_gpio.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -969,7 +980,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSim
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_gpio_map.h)(0x57BB21B0)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_uart.c)(0x5795ACEE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_uart.o --omf_browse .\objects\xmc_uart.crf --depend .\objects\xmc_uart.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_uart.c)(0x5795ACEE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_uart.o --omf_browse .\objects\xmc_uart.crf --depend .\objects\xmc_uart.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -988,7 +999,7 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_usic.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_usic.o --omf_browse .\objects\xmc_usic.crf --depend .\objects\xmc_usic.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_usic.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_usic.o --omf_browse .\objects\xmc_usic.crf --depend .\objects\xmc_usic.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -1006,9 +1017,9 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC470
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
-F (RTE\Device\XMC4700-F144x2048\RTE_Device.h)(0x57CFA92C)()
-F (RTE\Device\XMC4700-F144x2048\startup_XMC4700.s)(0x597169D0)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"--cpreproc --pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "XMC4700_F144x2048 SETA 1"--list .\listings\startup_xmc4700.lst --xref -o .\objects\startup_xmc4700.o --depend .\objects\startup_xmc4700.d)
-F (RTE\Device\XMC4700-F144x2048\system_XMC4700.c)(0x5787A5C6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include"-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-IG:\AA-四旋翼\000-无人机比赛\4700_n3_keil\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\system_xmc4700.o --omf_browse .\objects\system_xmc4700.crf --depend .\objects\system_xmc4700.d)
+F (RTE\Device\XMC4700-F144x2048\RTE_Device.h)(0x5ACB0397)()
+F (RTE\Device\XMC4700-F144x2048\startup_XMC4700.s)(0x5ACB0397)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"--cpreproc --pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "XMC4700_F144x2048 SETA 1"--list .\listings\startup_xmc4700.lst --xref -o .\objects\startup_xmc4700.o --depend .\objects\startup_xmc4700.d)
+F (RTE\Device\XMC4700-F144x2048\system_XMC4700.c)(0x5ACB0397)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\system_xmc4700.o --omf_browse .\objects\system_xmc4700.crf --depend .\objects\system_xmc4700.d)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)

@@ -16,6 +16,9 @@
 
 #define MAX_RECEIVE 32
 
+#define UART_TX_BUFFER_SIZE        512
+#define UART_RX_BUFFER_SIZE        512
+
 class TerminalCommand
 {
 public:
