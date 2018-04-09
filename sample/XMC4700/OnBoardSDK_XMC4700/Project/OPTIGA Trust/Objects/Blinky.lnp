@@ -1,0 +1,21 @@
+--cpu=Cortex-M4.fp
+".\objects\main.o"
+".\objects\test_case.o"
+".\objects\board.o"
+".\objects\sls10ere_auth.o"
+".\objects\sls10ere_crypto.o"
+".\objects\sls10ere_math.o"
+".\objects\sls10ere_nvm.o"
+".\objects\sls10ere_swi_bif.o"
+".\objects\swi_hal.o"
+".\objects\xmc4_gpio.o"
+".\objects\xmc4_scu.o"
+".\objects\xmc_ccu4.o"
+".\objects\xmc_common.o"
+".\objects\xmc_gpio.o"
+".\objects\startup_xmc4700.o"
+".\objects\system_xmc4700.o"
+--strict --scatter ".\Objects\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Blinky.map" -o .\Objects\Blinky.axf
