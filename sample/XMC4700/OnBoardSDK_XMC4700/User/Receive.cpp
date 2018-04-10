@@ -67,45 +67,98 @@ static float32_t hex2Float(uint8_t HighByte, uint8_t LowByte)
 TerminalCommand myTerminal;
 
 uint8_t c_temp;
+int i1, i2, i3;
 void TerminalCommand::terminalCommandHandler(CoreAPI* api, Flight* flight)
 {	
-	while(serial_available())//如果tail还没有追上head
-	{
-	  c_temp = serial_read_ch();//读取fifo数据，tail加1，数据来自串口读取数组		
-		
-		if(mavlink_parse_char(MAVLINK_COMM_0, c_temp, &msg, &status))//解析获得的消息 
+		while(serial_available())//如果tail还没有追上head
 		{
-			
-			switch(msg.msgid)
-			{
-				case MAVLINK_MSG_ID_HEARTBEAT:
+				c_temp = serial_read_ch();//读取fifo数据，tail加1，数据来自串口读取数组		
+				
+				if(mavlink_parse_char(MAVLINK_COMM_0, c_temp, &msg, &status))//解析获得的消息 
 				{
-						mavlink_msg_heartbeat_decode(&msg, &heartbeat);
-						break;
-				}
-									
-				case MAVLINK_MSG_ID_ATT_POS_MOCAP :
-				{
-						mavlink_msg_att_pos_mocap_decode(&msg,&att_pos_mocap);
-						break;
-				}
-						
-				case MAVLINK_MSG_ID_SET_ATTITUDE_TARGET :
-				{
-						mavlink_msg_set_attitude_target_decode(&msg,&set_attitude_target);
-						break;
-				}
-				default:
-						//Do nothing
-						break;
-			}			
-			
+					
+						switch(msg.msgid)
+						{
+								case MAVLINK_MSG_ID_HEARTBEAT:
+								{
+										mavlink_msg_heartbeat_decode(&msg, &heartbeat);
+										break;
+								}
+													
+								case MAVLINK_MSG_ID_ATT_POS_MOCAP :
+								{
+										mavlink_msg_att_pos_mocap_decode(&msg,&att_pos_mocap);
+										break;
+								}
+										
+								case MAVLINK_MSG_ID_SET_ATTITUDE_TARGET :
+								{
+										mavlink_msg_set_attitude_target_decode(&msg,&set_attitude_target);
+										break;
+								}
+								default:
+										//Do nothing
+										break;
+						}														
+			}
 			
 		}
 		
-	}
+		if(att_pos_mocap.q[0] == 1 && i1 == 0)
+		{
+				api->setControl(0x01);//obtain control
+				i1++;
+		}
+		if(att_pos_mocap.q[0] == 0 && i1 == 1)
+		{
+				api->setControl(0x00);//release control
+				i1 = 0;
+		}
+		
+		if(att_pos_mocap.q[1] == 1 && i2 ==0)
+		{
+				flight->setArm(0x01);//arm
+				i2++;
+		}
+		if(att_pos_mocap.q[1] == 0 && i2 ==1)
+		{
+				flight->setArm(0x00);//disarm
+				i2 = 0;
+		}
+
+
+		if(att_pos_mocap.q[2] == 1 && i3 ==0)
+		{
+				flight->task(Flight::TASK_TAKEOFF);
+				i3++;
+		}
+		if(att_pos_mocap.q[2] == 0 && i3 ==1)
+		{
+				flight->task(Flight::TASK_LANDING);
+				i3 = 0;
+		}
+		
 	
-  if (cmdReadyFlag == 1)
+	
+	
+	
+	
+		if(att_pos_mocap.time_usec == 1)
+		{
+			flightData.x = att_pos_mocap.x;
+      flightData.y = att_pos_mocap.y;
+      flightData.z = att_pos_mocap.z;
+      flightData.yaw = att_pos_mocap.q[3];
+			
+      flight->setFlight(&flightData);
+      XMC_CCU4_SLICE_StartTimer(SLICE1_PTR);			
+		}
+		else
+		{
+		}
+		
+		
+		if (cmdReadyFlag == 1)
   {
     cmdReadyFlag = 0;
   }
