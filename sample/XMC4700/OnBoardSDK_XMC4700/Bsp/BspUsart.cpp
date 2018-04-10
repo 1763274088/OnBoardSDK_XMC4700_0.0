@@ -31,11 +31,11 @@ extern int Rx_adr;
 extern int Rx_Handle_Flag;
 extern unsigned char Rx_buff[];
 
-#define PC_UART_RX_PIN       P3_14
-#define PC_UART_TX_PIN       P3_15
+#define PC_UART_RX_PIN       P1_4
+#define PC_UART_TX_PIN       P1_5
 
 /* PC_UART configuration */
-XMC_USIC_CH_t           *pc_uart =XMC_UART1_CH1;
+XMC_USIC_CH_t           *pc_uart =XMC_UART0_CH0;
 XMC_UART_CH_CONFIG_t     pc_uart_config =
 {
 		115200U,
@@ -74,7 +74,7 @@ XMC_GPIO_CONFIG_t        n3_tx_pin_config;
 void PC_UART_Config(void)
 {
   XMC_UART_CH_Init(pc_uart, &pc_uart_config);
-  XMC_UART_CH_SetInputSource(pc_uart, XMC_UART_CH_INPUT_RXD , USIC1_C1_DX0_P3_14);
+  XMC_UART_CH_SetInputSource(pc_uart, XMC_UART_CH_INPUT_RXD , USIC0_C0_DX0_P1_4);
   XMC_UART_CH_Start(pc_uart);  // uart.CCR.mode=UART-> USIC0_CH0 is switched for UART operation mode
 
 
