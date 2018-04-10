@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>ARM_MATH_CM4,__FPU_PRESENT</Define>
               <Undefine></Undefine>
-              <IncludePath>..\User;..\Bsp;..\..\..\..\osdk-core\inc;.\OPTIGA Trust\SLS10ERE1\Include</IncludePath>
+              <IncludePath>..\User;..\Bsp;..\..\..\..\osdk-core\inc;.\OPTIGA Trust\SLS10ERE1\Include;..\HARDWARE\FIFO;..\mavlink;..\mavlink\common</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -528,6 +528,16 @@
               <FileName>DJI_WayPoint.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>..\..\..\..\osdk-core\src\DJI_WayPoint.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>HARDWARE</GroupName>
+          <Files>
+            <File>
+              <FileName>fifo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\FIFO\fifo.c</FilePath>
             </File>
           </Files>
         </Group>

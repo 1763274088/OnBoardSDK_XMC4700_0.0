@@ -31,6 +31,11 @@ public:
   TerminalCommand():cmdReadyFlag(0),rxIndex(0),rxLength(0){;}
 };
 
+void InitSoftwareFIFO(void);
+uint8_t serial_read_ch(void);
+uint16_t serial_available(void);
+
+
 
 #endif //RECEIVE_H
 

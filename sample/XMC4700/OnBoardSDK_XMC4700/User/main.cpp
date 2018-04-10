@@ -45,6 +45,7 @@ extern uint8_t myFreq[16];
 		
 int main()
 {
+	InitSoftwareFIFO();                         // 对使用的软件fifo进行初始化
   BSPinit();
   delay_nms(30);
   printf("This is the example App to test DJI onboard SDK on XMC4700Discovery Board! \r\n");

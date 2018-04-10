@@ -26,6 +26,21 @@ uint8_t uart_rx_buf[UART_RX_BUFFER_SIZE];
 /**定义uart_tx_fifo的发送数组缓存区*/
 uint8_t uart_tx_buf[UART_TX_BUFFER_SIZE];
 
+/**定义基于Mavlink的消息包*/
+mavlink_message_t msg;
+
+/**定义基于Mavlink的状态*/
+mavlink_status_t status;
+
+/**定义Mavlink心跳包数据*/
+mavlink_heartbeat_t     heartbeat;
+
+/**定义基于Mavlink的optitrack数据*/
+mavlink_att_pos_mocap_t att_pos_mocap; 
+
+/**定义基于Mavlink的目标姿态数据*/
+mavlink_set_attitude_target_t set_attitude_target;
+
 
 extern XMC_USIC_CH_t           *pc_uart;
 extern FlightData flightData;
@@ -51,13 +66,44 @@ static float32_t hex2Float(uint8_t HighByte, uint8_t LowByte)
 
 TerminalCommand myTerminal;
 
+uint8_t c_temp;
 void TerminalCommand::terminalCommandHandler(CoreAPI* api, Flight* flight)
-{
-	
-	for(int i = 0; i>32; i++)	{
-		fifo_write_ch(&uart_rx_fifo, cmdIn[i]);
-	}	
-	
+{	
+	while(serial_available())//如果tail还没有追上head
+	{
+	  c_temp = serial_read_ch();//读取fifo数据，tail加1，数据来自串口读取数组		
+		
+		if(mavlink_parse_char(MAVLINK_COMM_0, c_temp, &msg, &status))//解析获得的消息 
+		{
+			
+			switch(msg.msgid)
+			{
+				case MAVLINK_MSG_ID_HEARTBEAT:
+				{
+						mavlink_msg_heartbeat_decode(&msg, &heartbeat);
+						break;
+				}
+									
+				case MAVLINK_MSG_ID_ATT_POS_MOCAP :
+				{
+						mavlink_msg_att_pos_mocap_decode(&msg,&att_pos_mocap);
+						break;
+				}
+						
+				case MAVLINK_MSG_ID_SET_ATTITUDE_TARGET :
+				{
+						mavlink_msg_set_attitude_target_decode(&msg,&set_attitude_target);
+						break;
+				}
+				default:
+						//Do nothing
+						break;
+			}			
+			
+			
+		}
+		
+	}
 	
   if (cmdReadyFlag == 1)
   {
@@ -188,7 +234,9 @@ void USIC0_5_IRQHandler(void)
 {
  
     uint8_t oneByte = XMC_UART_CH_GetReceivedData(pc_uart);
-						
+	
+		fifo_write_ch(&uart_rx_fifo, oneByte);
+				
     if (myTerminal.rxIndex == 0)
     {
       if (oneByte == 0xFA)
@@ -218,5 +266,43 @@ void USIC0_5_IRQHandler(void)
 #ifdef __cplusplus
 }
 #endif //__cplusplus
+
+/* --------------------------------------------------------------------------*/
+/**
+ * @brief 初始化fifo缓存区
+ */
+/* ----------------------------------------------------------------------------*/
+void InitSoftwareFIFO(void)
+{
+    fifo_init(&uart_tx_fifo, uart_tx_buf, UART_TX_BUFFER_SIZE);	
+    fifo_init(&uart_rx_fifo, uart_rx_buf, UART_RX_BUFFER_SIZE);
+}
+
+/* --------------------------------------------------------------------------*/
+/**
+ * @brief 从串口读取数据
+ *
+ * @returns 从串口读取的一个字节的数据 
+ */
+/* ----------------------------------------------------------------------------*/
+uint8_t serial_read_ch(void)
+{
+	uint8_t ch;	
+	fifo_read_ch(&uart_rx_fifo, &ch);	
+	return ch;
+}
+
+/* --------------------------------------------------------------------------*/
+/**
+ * @brief 获取读取读取fifo数组中可读数据个数
+ *
+ * @returns  返回可读数据个数 
+ */
+/* ----------------------------------------------------------------------------*/
+uint16_t serial_available(void)
+{
+	return fifo_used(&uart_rx_fifo);
+}
+
 
 

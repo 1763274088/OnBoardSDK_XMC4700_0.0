@@ -1,6 +1,6 @@
 Dependencies for Project 'OnBoardSDK_XMC4700', Target 'Target 1': (DO NOT MODIFY !)
-F (..\User\main.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\User\main.h)(0x5ACB0397)
+F (..\User\main.cpp)(0x5ACB2280)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\main.h)(0x5ACB26D5)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
@@ -53,11 +53,156 @@ I (..\User\VirtualRC.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (..\User\HotPoint.h)(0x5ACB0397)
-I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\User\Receive.h)(0x5ACB2280)
 I (..\Bsp\bsp.h)(0x5ACB0396)
 I (..\User\LocalNavigation.h)(0x5ACB0397)
 I (..\User\MobileCommand.h)(0x5ACB0397)
-F (..\User\driver.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\driver.o --omf_browse .\objects\driver.crf --depend .\objects\driver.d)
+I (..\mavlink\common\mavlink.h)(0x5979E76D)
+I (..\mavlink\common\version.h)(0x5979DB62)
+I (..\mavlink\common\common.h)(0x5979DB62)
+I (..\mavlink\common\../protocol.h)(0x5979DF92)
+I (..\mavlink\common\../mavlink_types.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_helpers.h)(0x5AA77336)
+I (..\mavlink\common\../checksum.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_conversions.h)(0x5AC4D826)
+I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
+I (..\mavlink\common\./mavlink_msg_heartbeat.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_sys_status.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_system_time.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_ping.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control_ack.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_auth_key.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_set_mode.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_read.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_list.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_value.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_set.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_raw_int.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_scaled.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_servo_output_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_write_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_set_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_count.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_clear_all.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_reached.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_param_map_rc.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_set_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_nav_controller_output.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_request_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_override.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vfr_hud.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_long.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_setpoint.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_system_global_offset.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_rc_inputs_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_actuator_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_speed_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vicon_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_highres_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow_rad.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_sim_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_radio_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_file_transfer_protocol.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_timesync.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_camera_trigger.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_gps.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_entry.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_erase.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_end.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_inject_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_power_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_serial_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_transmission_handshake.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_encapsulated_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_distance_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_check.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_report.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_att_pos_mocap.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_altitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_resource_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_follow_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_control_system_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_battery_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_autopilot_version.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_landing_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_estimator_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_wind_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_input.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtcm_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_high_latency.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vibration.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_set_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_message_interval.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_extended_sys_state.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_adsb_vehicle.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_collision.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_v2_extension.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_memory_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_float.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_int.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_statustext.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug.h)(0x5979DB64)
+F (..\User\driver.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\driver.o --omf_browse .\objects\driver.crf --depend .\objects\driver.d)
 I (..\User\driver.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -94,7 +239,7 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-F (..\User\Activate.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\activate.o --omf_browse .\objects\activate.crf --depend .\objects\activate.d)
+F (..\User\Activate.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\activate.o --omf_browse .\objects\activate.crf --depend .\objects\activate.d)
 I (..\User\Activate.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
@@ -119,9 +264,9 @@ I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
-F (..\User\HotPoint.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\hotpoint.o --omf_browse .\objects\hotpoint.crf --depend .\objects\hotpoint.d)
+F (..\User\HotPoint.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\hotpoint.o --omf_browse .\objects\hotpoint.crf --depend .\objects\hotpoint.d)
 I (..\User\HotPoint.h)(0x5ACB0397)
-I (..\User\main.h)(0x5ACB0397)
+I (..\User\main.h)(0x5ACB26D5)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
@@ -173,11 +318,156 @@ I (..\Bsp\timer.h)(0x5ACB0396)
 I (..\User\VirtualRC.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
-I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\User\Receive.h)(0x5ACB2280)
 I (..\Bsp\bsp.h)(0x5ACB0396)
 I (..\User\LocalNavigation.h)(0x5ACB0397)
 I (..\User\MobileCommand.h)(0x5ACB0397)
-F (..\User\LocalNavigation.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\localnavigation.o --omf_browse .\objects\localnavigation.crf --depend .\objects\localnavigation.d)
+I (..\mavlink\common\mavlink.h)(0x5979E76D)
+I (..\mavlink\common\version.h)(0x5979DB62)
+I (..\mavlink\common\common.h)(0x5979DB62)
+I (..\mavlink\common\../protocol.h)(0x5979DF92)
+I (..\mavlink\common\../mavlink_types.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_helpers.h)(0x5AA77336)
+I (..\mavlink\common\../checksum.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_conversions.h)(0x5AC4D826)
+I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
+I (..\mavlink\common\./mavlink_msg_heartbeat.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_sys_status.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_system_time.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_ping.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control_ack.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_auth_key.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_set_mode.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_read.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_list.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_value.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_set.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_raw_int.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_scaled.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_servo_output_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_write_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_set_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_count.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_clear_all.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_reached.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_param_map_rc.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_set_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_nav_controller_output.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_request_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_override.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vfr_hud.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_long.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_setpoint.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_system_global_offset.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_rc_inputs_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_actuator_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_speed_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vicon_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_highres_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow_rad.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_sim_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_radio_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_file_transfer_protocol.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_timesync.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_camera_trigger.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_gps.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_entry.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_erase.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_end.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_inject_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_power_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_serial_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_transmission_handshake.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_encapsulated_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_distance_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_check.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_report.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_att_pos_mocap.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_altitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_resource_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_follow_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_control_system_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_battery_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_autopilot_version.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_landing_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_estimator_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_wind_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_input.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtcm_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_high_latency.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vibration.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_set_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_message_interval.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_extended_sys_state.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_adsb_vehicle.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_collision.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_v2_extension.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_memory_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_float.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_int.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_statustext.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug.h)(0x5979DB64)
+F (..\User\LocalNavigation.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\localnavigation.o --omf_browse .\objects\localnavigation.crf --depend .\objects\localnavigation.d)
 I (..\User\LocalNavigation.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
@@ -208,7 +498,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFun
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
-I (..\User\main.h)(0x5ACB0397)
+I (..\User\main.h)(0x5ACB26D5)
 I (..\User\driver.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
@@ -234,10 +524,154 @@ I (..\User\VirtualRC.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (..\User\HotPoint.h)(0x5ACB0397)
-I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\User\Receive.h)(0x5ACB2280)
 I (..\Bsp\bsp.h)(0x5ACB0396)
 I (..\User\MobileCommand.h)(0x5ACB0397)
-F (..\User\MobileCommand.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\mobilecommand.o --omf_browse .\objects\mobilecommand.crf --depend .\objects\mobilecommand.d)
+I (..\mavlink\common\mavlink.h)(0x5979E76D)
+I (..\mavlink\common\version.h)(0x5979DB62)
+I (..\mavlink\common\common.h)(0x5979DB62)
+I (..\mavlink\common\../protocol.h)(0x5979DF92)
+I (..\mavlink\common\../mavlink_types.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_helpers.h)(0x5AA77336)
+I (..\mavlink\common\../checksum.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_conversions.h)(0x5AC4D826)
+I (..\mavlink\common\./mavlink_msg_heartbeat.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_sys_status.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_system_time.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_ping.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control_ack.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_auth_key.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_set_mode.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_read.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_list.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_value.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_set.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_raw_int.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_scaled.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_servo_output_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_write_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_set_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_count.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_clear_all.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_reached.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_param_map_rc.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_set_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_nav_controller_output.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_request_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_override.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vfr_hud.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_long.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_setpoint.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_system_global_offset.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_rc_inputs_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_actuator_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_speed_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vicon_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_highres_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow_rad.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_sim_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_radio_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_file_transfer_protocol.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_timesync.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_camera_trigger.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_gps.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_entry.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_erase.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_end.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_inject_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_power_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_serial_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_transmission_handshake.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_encapsulated_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_distance_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_check.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_report.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_att_pos_mocap.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_altitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_resource_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_follow_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_control_system_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_battery_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_autopilot_version.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_landing_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_estimator_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_wind_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_input.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtcm_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_high_latency.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vibration.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_set_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_message_interval.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_extended_sys_state.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_adsb_vehicle.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_collision.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_v2_extension.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_memory_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_float.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_int.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_statustext.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug.h)(0x5979DB64)
+F (..\User\MobileCommand.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\mobilecommand.o --omf_browse .\objects\mobilecommand.crf --depend .\objects\mobilecommand.d)
 I (..\User\MobileCommand.h)(0x5ACB0397)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
@@ -272,9 +706,9 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC470
 I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
 I (..\User\Activate.h)(0x5ACB0397)
 I (..\User\LocalNavigation.h)(0x5ACB0397)
-F (..\User\Receive.cpp)(0x5ACB1DEF)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\receive.o --omf_browse .\objects\receive.crf --depend .\objects\receive.d)
-I (..\User\Receive.h)(0x5ACB1DBF)
-I (..\User\main.h)(0x5ACB0397)
+F (..\User\Receive.cpp)(0x5ACB4940)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\receive.o --omf_browse .\objects\receive.crf --depend .\objects\receive.d)
+I (..\User\Receive.h)(0x5ACB2280)
+I (..\User\main.h)(0x5ACB26D5)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
@@ -330,8 +764,153 @@ I (..\User\HotPoint.h)(0x5ACB0397)
 I (..\Bsp\bsp.h)(0x5ACB0396)
 I (..\User\LocalNavigation.h)(0x5ACB0397)
 I (..\User\MobileCommand.h)(0x5ACB0397)
+I (..\mavlink\common\mavlink.h)(0x5979E76D)
+I (..\mavlink\common\version.h)(0x5979DB62)
+I (..\mavlink\common\common.h)(0x5979DB62)
+I (..\mavlink\common\../protocol.h)(0x5979DF92)
+I (..\mavlink\common\../mavlink_types.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_helpers.h)(0x5AA77336)
+I (..\mavlink\common\../checksum.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_conversions.h)(0x5AC4D826)
+I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
+I (..\mavlink\common\./mavlink_msg_heartbeat.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_sys_status.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_system_time.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_ping.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control_ack.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_auth_key.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_set_mode.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_read.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_list.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_value.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_set.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_raw_int.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_scaled.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_servo_output_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_write_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_set_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_count.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_clear_all.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_reached.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_param_map_rc.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_set_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_nav_controller_output.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_request_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_override.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vfr_hud.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_long.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_setpoint.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_system_global_offset.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_rc_inputs_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_actuator_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_speed_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vicon_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_highres_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow_rad.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_sim_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_radio_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_file_transfer_protocol.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_timesync.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_camera_trigger.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_gps.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_entry.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_erase.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_end.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_inject_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_power_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_serial_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_transmission_handshake.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_encapsulated_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_distance_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_check.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_report.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_att_pos_mocap.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_altitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_resource_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_follow_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_control_system_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_battery_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_autopilot_version.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_landing_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_estimator_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_wind_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_input.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtcm_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_high_latency.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vibration.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_set_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_message_interval.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_extended_sys_state.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_adsb_vehicle.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_collision.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_v2_extension.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_memory_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_float.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_int.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_statustext.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug.h)(0x5979DB64)
 I (..\HARDWARE\FIFO\fifo.h)(0x5ACB1834)
-F (..\User\VirtualRC.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\virtualrc.o --omf_browse .\objects\virtualrc.crf --depend .\objects\virtualrc.d)
+F (..\User\VirtualRC.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\virtualrc.o --omf_browse .\objects\virtualrc.crf --depend .\objects\virtualrc.d)
 I (..\User\VirtualRC.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
@@ -356,7 +935,7 @@ I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
-F (..\User\cppforXMC4700.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\cppforxmc4700.o --omf_browse .\objects\cppforxmc4700.crf --depend .\objects\cppforxmc4700.d)
+F (..\User\cppforXMC4700.cpp)(0x5ACB0397)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\cppforxmc4700.o --omf_browse .\objects\cppforxmc4700.crf --depend .\objects\cppforxmc4700.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -380,9 +959,9 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-F (..\Bsp\bsp.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+F (..\Bsp\bsp.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
 I (..\Bsp\bsp.h)(0x5ACB0396)
-I (..\User\main.h)(0x5ACB0397)
+I (..\User\main.h)(0x5ACB26D5)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
@@ -435,10 +1014,155 @@ I (..\User\VirtualRC.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (..\User\HotPoint.h)(0x5ACB0397)
-I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\User\Receive.h)(0x5ACB2280)
 I (..\User\LocalNavigation.h)(0x5ACB0397)
 I (..\User\MobileCommand.h)(0x5ACB0397)
-F (..\Bsp\BspUsart.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\bspusart.o --omf_browse .\objects\bspusart.crf --depend .\objects\bspusart.d)
+I (..\mavlink\common\mavlink.h)(0x5979E76D)
+I (..\mavlink\common\version.h)(0x5979DB62)
+I (..\mavlink\common\common.h)(0x5979DB62)
+I (..\mavlink\common\../protocol.h)(0x5979DF92)
+I (..\mavlink\common\../mavlink_types.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_helpers.h)(0x5AA77336)
+I (..\mavlink\common\../checksum.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_conversions.h)(0x5AC4D826)
+I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
+I (..\mavlink\common\./mavlink_msg_heartbeat.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_sys_status.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_system_time.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_ping.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control_ack.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_auth_key.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_set_mode.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_read.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_list.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_value.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_set.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_raw_int.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_scaled.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_servo_output_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_write_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_set_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_count.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_clear_all.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_reached.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_param_map_rc.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_set_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_nav_controller_output.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_request_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_override.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vfr_hud.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_long.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_setpoint.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_system_global_offset.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_rc_inputs_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_actuator_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_speed_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vicon_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_highres_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow_rad.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_sim_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_radio_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_file_transfer_protocol.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_timesync.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_camera_trigger.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_gps.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_entry.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_erase.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_end.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_inject_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_power_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_serial_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_transmission_handshake.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_encapsulated_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_distance_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_check.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_report.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_att_pos_mocap.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_altitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_resource_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_follow_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_control_system_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_battery_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_autopilot_version.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_landing_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_estimator_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_wind_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_input.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtcm_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_high_latency.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vibration.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_set_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_message_interval.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_extended_sys_state.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_adsb_vehicle.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_collision.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_v2_extension.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_memory_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_float.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_int.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_statustext.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug.h)(0x5979DB64)
+F (..\Bsp\BspUsart.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\bspusart.o --omf_browse .\objects\bspusart.crf --depend .\objects\bspusart.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -481,7 +1205,7 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
-F (..\Bsp\timer.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+F (..\Bsp\timer.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (..\Bsp\timer.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
@@ -513,7 +1237,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFun
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
-I (..\User\main.h)(0x5ACB0397)
+I (..\User\main.h)(0x5ACB26D5)
 I (..\User\driver.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
 I (..\Bsp\BspUsart.h)(0x5ACB0396)
@@ -535,14 +1259,159 @@ I (..\User\VirtualRC.h)(0x5ACB0397)
 I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (..\User\HotPoint.h)(0x5ACB0397)
-I (..\User\Receive.h)(0x5ACB1DBF)
+I (..\User\Receive.h)(0x5ACB2280)
 I (..\Bsp\bsp.h)(0x5ACB0396)
 I (..\User\LocalNavigation.h)(0x5ACB0397)
 I (..\User\MobileCommand.h)(0x5ACB0397)
+I (..\mavlink\common\mavlink.h)(0x5979E76D)
+I (..\mavlink\common\version.h)(0x5979DB62)
+I (..\mavlink\common\common.h)(0x5979DB62)
+I (..\mavlink\common\../protocol.h)(0x5979DF92)
+I (..\mavlink\common\../mavlink_types.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_helpers.h)(0x5AA77336)
+I (..\mavlink\common\../checksum.h)(0x5979DF18)
+I (..\mavlink\common\../mavlink_conversions.h)(0x5AC4D826)
+I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
+I (..\mavlink\common\./mavlink_msg_heartbeat.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_sys_status.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_system_time.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_ping.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_change_operator_control_ack.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_auth_key.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_set_mode.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_read.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_request_list.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_value.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_param_set.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_raw_int.h)(0x5979DB62)
+I (..\mavlink\common\./mavlink_msg_gps_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_raw_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_scaled.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_servo_output_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_write_partial_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_set_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_current.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_count.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_clear_all.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_reached.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_global_origin.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_param_map_rc.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_request_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_set_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_safety_allowed_area.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_quaternion_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_nav_controller_output.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_position_int_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_request_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_stream.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_rc_channels_override.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_mission_item_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vfr_hud.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_long.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_command_ack.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_manual_setpoint.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_attitude_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_local_ned.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_position_target_global_int.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_local_position_ned_system_global_offset.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_rc_inputs_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_actuator_controls.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_global_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vision_speed_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vicon_position_estimate.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_highres_imu.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_optical_flow_rad.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_sim_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_radio_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_file_transfer_protocol.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_timesync.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_camera_trigger.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_gps.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_optical_flow.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_hil_state_quaternion.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_list.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_entry.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_erase.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_log_request_end.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_inject_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_raw.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_power_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_serial_control.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps2_rtk.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_imu3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_data_transmission_handshake.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_encapsulated_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_distance_sensor.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_check.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_terrain_report.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure2.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_att_pos_mocap.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_set_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_actuator_control_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_altitude.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_resource_request.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_scaled_pressure3.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_follow_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_control_system_state.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_battery_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_autopilot_version.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_landing_target.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_estimator_status.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_wind_cov.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_input.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_gps_rtcm_data.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_high_latency.h)(0x5979DB63)
+I (..\mavlink\common\./mavlink_msg_vibration.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_set_home_position.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_message_interval.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_extended_sys_state.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_adsb_vehicle.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_collision.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_v2_extension.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_memory_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug_vect.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_float.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_named_value_int.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_statustext.h)(0x5979DB64)
+I (..\mavlink\common\./mavlink_msg_debug.h)(0x5979DB64)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
 F (..\doc\readme.txt)(0x5ACB0397)()
-F (..\..\..\..\osdk-core\src\DJI_API.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_api.o --omf_browse .\objects\dji_api.crf --depend .\objects\dji_api.d)
+F (..\..\..\..\osdk-core\src\DJI_API.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_api.o --omf_browse .\objects\dji_api.crf --depend .\objects\dji_api.d)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
@@ -565,7 +1434,7 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_App.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_app.o --omf_browse .\objects\dji_app.crf --depend .\objects\dji_app.d)
+F (..\..\..\..\osdk-core\src\DJI_App.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_app.o --omf_browse .\objects\dji_app.crf --depend .\objects\dji_app.d)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
@@ -589,7 +1458,7 @@ I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
-F (..\..\..\..\osdk-core\src\DJI_Camera.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_camera.o --omf_browse .\objects\dji_camera.crf --depend .\objects\dji_camera.d)
+F (..\..\..\..\osdk-core\src\DJI_Camera.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_camera.o --omf_browse .\objects\dji_camera.crf --depend .\objects\dji_camera.d)
 I (..\..\..\..\osdk-core\inc\DJI_Camera.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
@@ -612,7 +1481,7 @@ I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
-F (..\..\..\..\osdk-core\src\DJI_Codec.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_codec.o --omf_browse .\objects\dji_codec.crf --depend .\objects\dji_codec.d)
+F (..\..\..\..\osdk-core\src\DJI_Codec.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_codec.o --omf_browse .\objects\dji_codec.crf --depend .\objects\dji_codec.d)
 I (..\..\..\..\osdk-core\inc\DJI_Codec.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
@@ -643,7 +1512,7 @@ I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
-F (..\..\..\..\osdk-core\src\DJI_Flight.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_flight.o --omf_browse .\objects\dji_flight.crf --depend .\objects\dji_flight.d)
+F (..\..\..\..\osdk-core\src\DJI_Flight.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_flight.o --omf_browse .\objects\dji_flight.crf --depend .\objects\dji_flight.d)
 I (..\..\..\..\osdk-core\inc\DJI_Flight.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
@@ -668,7 +1537,7 @@ I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\math.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_Follow.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_follow.o --omf_browse .\objects\dji_follow.crf --depend .\objects\dji_follow.d)
+F (..\..\..\..\osdk-core\src\DJI_Follow.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_follow.o --omf_browse .\objects\dji_follow.crf --depend .\objects\dji_follow.d)
 I (..\..\..\..\osdk-core\inc\DJI_Follow.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
@@ -692,7 +1561,7 @@ I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
-F (..\..\..\..\osdk-core\src\DJI_HardDriver.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_harddriver.o --omf_browse .\objects\dji_harddriver.crf --depend .\objects\dji_harddriver.d)
+F (..\..\..\..\osdk-core\src\DJI_HardDriver.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_harddriver.o --omf_browse .\objects\dji_harddriver.crf --depend .\objects\dji_harddriver.d)
 I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
@@ -711,7 +1580,7 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\cstdarg)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstddef)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_HotPoint.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_hotpoint.o --omf_browse .\objects\dji_hotpoint.crf --depend .\objects\dji_hotpoint.d)
+F (..\..\..\..\osdk-core\src\DJI_HotPoint.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_hotpoint.o --omf_browse .\objects\dji_hotpoint.crf --depend .\objects\dji_hotpoint.d)
 I (..\..\..\..\osdk-core\inc\DJI_HotPoint.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
@@ -736,7 +1605,7 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_Link.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_link.o --omf_browse .\objects\dji_link.crf --depend .\objects\dji_link.d)
+F (..\..\..\..\osdk-core\src\DJI_Link.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_link.o --omf_browse .\objects\dji_link.crf --depend .\objects\dji_link.d)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
@@ -768,7 +1637,7 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_iterbase.h)(0x56FE42DC)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\rw\_mutex.h)(0x56FE42D8)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\cstring)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_Logging.h)(0x5ACB0396)
-F (..\..\..\..\osdk-core\src\DJI_Logging.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_logging.o --omf_browse .\objects\dji_logging.crf --depend .\objects\dji_logging.d)
+F (..\..\..\..\osdk-core\src\DJI_Logging.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_logging.o --omf_browse .\objects\dji_logging.crf --depend .\objects\dji_logging.d)
 I (..\..\..\..\osdk-core\inc\DJI_Logging.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
@@ -791,7 +1660,7 @@ I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
-F (..\..\..\..\osdk-core\src\DJI_Memory.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_memory.o --omf_browse .\objects\dji_memory.crf --depend .\objects\dji_memory.d)
+F (..\..\..\..\osdk-core\src\DJI_Memory.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_memory.o --omf_browse .\objects\dji_memory.crf --depend .\objects\dji_memory.d)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_Memory.h)(0x5ACB0396)
@@ -815,7 +1684,7 @@ I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
-F (..\..\..\..\osdk-core\src\DJI_Mission.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_mission.o --omf_browse .\objects\dji_mission.crf --depend .\objects\dji_mission.d)
+F (..\..\..\..\osdk-core\src\DJI_Mission.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_mission.o --omf_browse .\objects\dji_mission.crf --depend .\objects\dji_mission.d)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
@@ -839,7 +1708,7 @@ I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\..\..\..\osdk-core\src\DJI_VirtualRC.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_virtualrc.o --omf_browse .\objects\dji_virtualrc.crf --depend .\objects\dji_virtualrc.d)
+F (..\..\..\..\osdk-core\src\DJI_VirtualRC.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_virtualrc.o --omf_browse .\objects\dji_virtualrc.crf --depend .\objects\dji_virtualrc.d)
 I (..\..\..\..\osdk-core\inc\DJI_VirtualRC.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_API.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Type.h)(0x5ACB0396)
@@ -862,7 +1731,7 @@ I (..\..\..\..\osdk-core\inc\DJI_HardDriver.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
-F (..\..\..\..\osdk-core\src\DJI_WayPoint.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_waypoint.o --omf_browse .\objects\dji_waypoint.crf --depend .\objects\dji_waypoint.d)
+F (..\..\..\..\osdk-core\src\DJI_WayPoint.cpp)(0x5ACB0396)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\dji_waypoint.o --omf_browse .\objects\dji_waypoint.crf --depend .\objects\dji_waypoint.d)
 I (..\..\..\..\osdk-core\inc\DJI_WayPoint.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Mission.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Config.h)(0x5ACB0396)
@@ -887,7 +1756,7 @@ I (D:\002program files\keil5.2\ARM\ARMCC\include\time.h)(0x574E3E26)
 I (..\..\..\..\osdk-core\inc\DJI_App.h)(0x5ACB0396)
 I (..\..\..\..\osdk-core\inc\DJI_Link.h)(0x5ACB0396)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
-F (..\HARDWARE\FIFO\fifo.c)(0x5981C9A0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\fifo.o --omf_browse .\objects\fifo.crf --depend .\objects\fifo.d)
+F (..\HARDWARE\FIFO\fifo.c)(0x5981C9A0)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\fifo.o --omf_browse .\objects\fifo.crf --depend .\objects\fifo.d)
 I (..\HARDWARE\FIFO\fifo.h)(0x5ACB1834)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
@@ -898,7 +1767,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFun
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 F (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x56283F70)()
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc4_gpio.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc4_gpio.o --omf_browse .\objects\xmc4_gpio.crf --depend .\objects\xmc4_gpio.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc4_gpio.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc4_gpio.o --omf_browse .\objects\xmc4_gpio.crf --depend .\objects\xmc4_gpio.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -915,7 +1784,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSim
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_gpio_map.h)(0x57BB21B0)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc4_scu.c)(0x57761C64)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc4_scu.o --omf_browse .\objects\xmc4_scu.crf --depend .\objects\xmc4_scu.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc4_scu.c)(0x57761C64)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc4_scu.o --omf_browse .\objects\xmc4_scu.crf --depend .\objects\xmc4_scu.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -931,7 +1800,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFun
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_ccu4.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_ccu4.o --omf_browse .\objects\xmc_ccu4.crf --depend .\objects\xmc_ccu4.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_ccu4.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_ccu4.o --omf_browse .\objects\xmc_ccu4.crf --depend .\objects\xmc_ccu4.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_ccu4.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -949,7 +1818,7 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC470
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_ccu4_map.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_common.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_common.o --omf_browse .\objects\xmc_common.crf --depend .\objects\xmc_common.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_common.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_common.o --omf_browse .\objects\xmc_common.crf --depend .\objects\xmc_common.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -963,7 +1832,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armc
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625A350)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_gpio.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_gpio.o --omf_browse .\objects\xmc_gpio.crf --depend .\objects\xmc_gpio.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_gpio.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_gpio.o --omf_browse .\objects\xmc_gpio.crf --depend .\objects\xmc_gpio.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -980,7 +1849,7 @@ I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSim
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\system_XMC4700.h)(0x5787022A)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_gpio.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_gpio_map.h)(0x57BB21B0)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_uart.c)(0x5795ACEE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_uart.o --omf_browse .\objects\xmc_uart.crf --depend .\objects\xmc_uart.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_uart.c)(0x5795ACEE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_uart.o --omf_browse .\objects\xmc_uart.crf --depend .\objects\xmc_uart.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_scu.h)(0x5812A806)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -999,7 +1868,7 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_uart.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_usic_map.h)(0x578F0F2A)
-F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_usic.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_usic.o --omf_browse .\objects\xmc_usic.crf --depend .\objects\xmc_usic.d)
+F (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\src\xmc_usic.c)(0x57A134B2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\xmc_usic.o --omf_browse .\objects\xmc_usic.crf --depend .\objects\xmc_usic.d)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_usic.h)(0x57A134B2)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc_common.h)(0x57761860)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\stddef.h)(0x574E3E26)
@@ -1019,7 +1888,7 @@ I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc\xmc4_scu.h)(0x577628C8)
 F (RTE\Device\XMC4700-F144x2048\RTE_Device.h)(0x5ACB0397)()
 F (RTE\Device\XMC4700-F144x2048\startup_XMC4700.s)(0x5ACB0397)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"--cpreproc --pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "XMC4700_F144x2048 SETA 1"--list .\listings\startup_xmc4700.lst --xref -o .\objects\startup_xmc4700.o --depend .\objects\startup_xmc4700.d)
-F (RTE\Device\XMC4700-F144x2048\system_XMC4700.c)(0x5ACB0397)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\system_xmc4700.o --omf_browse .\objects\system_xmc4700.crf --depend .\objects\system_xmc4700.d)
+F (RTE\Device\XMC4700-F144x2048\system_XMC4700.c)(0x5ACB0397)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User -I ..\Bsp -I ..\..\..\..\osdk-core\inc -I ".\OPTIGA Trust\SLS10ERE1\Include" -I ..\HARDWARE\FIFO -I ..\mavlink -I ..\mavlink\common-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE-ID:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE\Device\XMC4700-F144x2048-I"D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMClib\inc"-I"D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\RTE_Driver"-D__UVISION_VERSION="521" -D_RTE_ -DXMC4700_F144x2048 -DARM_MATH_CM4 -D__FPU_PRESENT-o .\objects\system_xmc4700.o --omf_browse .\objects\system_xmc4700.crf --depend .\objects\system_xmc4700.d)
 I (D:\002program files\keil5.2\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (D:\002program files\keil5.2\ARM\PACK\Infineon\XMC4000_DFP\2.7.1\Device\XMC4700_series\Include\XMC4700.h)(0x57CCDBA2)
 I (D:\002program files\keil5.2\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
