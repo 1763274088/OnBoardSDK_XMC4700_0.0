@@ -40,15 +40,15 @@ Package Vendor: ARM
 
 Package Vendor: Infineon
                 http://dave.infineon.com/Libraries/CMSIS_PACK/Infineon.XMC4000_DFP.2.7.1.pack
-                Infineon::Device:XMClib:UART:2.1.8
+                Infineon::Device:XMClib:SCU:2.1.8
                 Infineon XMC4000 Series Device Support, Drivers and Examples
       Note: The new PACK download address is http://dave.infineon.com/Libraries/CMSIS_PACK/
-   * Component: UART Version: 2.1.8
+   * Component: SCU Version: 2.1.8
    * Component: Startup Version: 2.0.0
-   * Component: RTE_Device Version: 1.1.0
    * Component: GPIO Version: 2.1.8
    * Component: CCU4 Version: 2.1.8
-   * Component: SCU Version: 2.1.8
+   * Component: RTE_Device Version: 1.1.0
+   * Component: UART Version: 2.1.8
 
 <h2>Collection of Component include folders:</h2>
   D:\AA-四旋翼\AA-无人机比赛\OnBoardSDK_XMC4700_0.0\sample\XMC4700\OnBoardSDK_XMC4700\Project\RTE
@@ -61,37 +61,37 @@ Package Vendor: Infineon
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:DSP:1.4.6
-      Include file:  CMSIS\Include\arm_math.h
       Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
+      Include file:  CMSIS\Include\arm_math.h
 
    * Component: ARM::CMSIS:CORE:4.3.0
 
-   * Component: Infineon::Device:XMClib:UART:2.1.8
+   * Component: Infineon::Device:XMClib:SCU:2.1.8
       Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc_uart.c
-      Source file:   Device\XMClib\src\xmc_usic.c
+      Source file:   Device\XMClib\src\xmc4_scu.c
 
    * Component: Infineon::Device:Startup:2.0.0
-      Source file:   Device\XMC4700_series\Source\ARM\startup_XMC4700.s
-      Source file:   Device\XMC4700_series\Source\system_XMC4700.c
       Include file:  Device\XMC4700_series\Include\XMC4700.h
-
-   * Component: Infineon::Device:RTE_Device:1.1.0
-      Include file:  RTE_Driver\Config\XMC4800_F144\RTE_Device.h
+      Source file:   Device\XMC4700_series\Source\system_XMC4700.c
+      Source file:   Device\XMC4700_series\Source\ARM\startup_XMC4700.s
 
    * Component: Infineon::Device:XMClib:GPIO:2.1.8
+      Source file:   Device\XMClib\src\xmc4_gpio.c
       Source file:   Device\XMClib\src\xmc_gpio.c
       Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc4_gpio.c
 
    * Component: Infineon::Device:XMClib:CCU4:2.1.8
       Source file:   Device\XMClib\src\xmc_common.c
       Source file:   Device\XMClib\src\xmc_ccu4.c
 
-   * Component: Infineon::Device:XMClib:SCU:2.1.8
+   * Component: Infineon::Device:RTE_Device:1.1.0
+      Include file:  RTE_Driver\Config\XMC4800_F144\RTE_Device.h
+
+   * Component: Infineon::Device:XMClib:UART:2.1.8
       Source file:   Device\XMClib\src\xmc_common.c
-      Source file:   Device\XMClib\src\xmc4_scu.c
-Build Time Elapsed:  00:00:03
+      Source file:   Device\XMClib\src\xmc_usic.c
+      Source file:   Device\XMClib\src\xmc_uart.c
+Build Time Elapsed:  00:00:00
 </pre>
 </body>
 </html>

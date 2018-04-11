@@ -15,6 +15,7 @@
 #include "stdio.h"
 void PC_UART_Config(void);
 void N3_UART_Config(void);
+
 void UARTxNVIC_Config(void);
 void UartConfig(void);
 void NVIC_Config(void);

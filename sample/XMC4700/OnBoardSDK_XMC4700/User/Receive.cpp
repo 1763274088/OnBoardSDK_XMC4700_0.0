@@ -43,6 +43,7 @@ mavlink_set_attitude_target_t set_attitude_target;
 
 
 extern XMC_USIC_CH_t           *pc_uart;
+extern XMC_USIC_CH_t           *pc1_uart;
 extern FlightData flightData;
 
 using namespace DJI::onboardSDK;
@@ -283,7 +284,7 @@ void TerminalCommand::terminalCommandHandler(CoreAPI* api, Flight* flight)
 extern "C"
 {
 #endif //__cplusplus
-void USIC0_5_IRQHandler(void)
+void USIC2_5_IRQHandler(void)
 {
  
     uint8_t oneByte = XMC_UART_CH_GetReceivedData(pc_uart);
@@ -319,6 +320,12 @@ void USIC0_5_IRQHandler(void)
 #ifdef __cplusplus
 }
 #endif //__cplusplus
+
+
+
+
+
+
 
 /* --------------------------------------------------------------------------*/
 /**
